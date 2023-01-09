@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Dwello</title>
+</head>
+
+<body class="bg-black text-white px-4 font-oxygen lg:w-2/3 lg:mx-auto">
+    <header class="py-4">
+        <h1 class="text-6xl font-black font-pacifico py-4">Dwello</h1>
+        <h2 class="text-xl font-semibold text-gray-500">Get connected</h2>
+    </header>
+    <div>
+        <hr>
+        <div class="text-lg py-4 font-light">
+            We are building a web portal to connect to you with your seniors and juniors.<br>
+            You will be able to use it for the following purposes:
+            <ul class="font-thin py-8">
+                <li> * Find out what ur peers have rated you</li>
+                <li> * Easily Find Your seniors </li>
+                <li> * Join Clubs</li>
+                <li> * Rate your professors</li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+    <div class="form pb-12">
+        <h2 class="text-2xl my-2">Fill this form to get updates.</h2>
+        <hr>
+        <form action="https://app.99inbound.com/api/e/AEpdD8tR" method="POST" target="_blank"
+            class="flex flex-col text-black border-2 bg-white border-gray-800 my-4 p-2 rounded-md lg:w-1/2 lg:mx-auto lg:mt-12 outline-double outline-gray-400">
+            <label class="mt-2 p-2 " for="email">Email</label>
+            <input class="mt-2 p-2 rounded-md border-gray-700 border-2" name="email" type="email" placeholder="Your Email" id="suggestion">
+            <label class="mt-2 p-2 " for="suggestion">Suggestion</label>
+            <textarea class="my-2 p-2 rounded-md border-gray-700 border-2" name="suggestion" id="suggestion" rows="6"
+                placeholder="Any feature you would like us to add?"></textarea>
+            <input class="my-2 p-3 rounded-md bg-black text-white hover:bg-gray-700 hover:text-white w-1/2 mx-auto"
+                type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
